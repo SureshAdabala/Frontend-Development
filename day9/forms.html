@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>General Bus Pass Application</title>
+</head>
+<body>
+  <div align= "center" style="background-color: lightblue; width: 100%; height: 205px; text-align: center;"  >
+    <img src="https://static.abhibus.com/content-pages/op-logos/apsrtc.png" alt="" width="150" height="100">
+    <h2><font color="blue">ANDHRA PRADESH STATE ROAD TRANSPORT CORPORATION</font></h2>
+    <h3 >GENERAL BUS PASS APPLICATION</h3>
+  </div><br>
+
+  <form  align="center">
+    <fieldset>
+      <legend><strong>Applicant Details</strong></legend>
+
+      <label for="name">Name *:  
+      <input type="text" name="name" maxlength="20" id="name"required></label>
+
+      <label  for="father">Father's / Guardian's Name *: 
+      <input type="text" name="guardian" maxlength="20" required id="father"></label> <br><br>
+
+      <label for="dob">Date of Birth *:
+      <input type="date" name="dob" required></label> 
+
+      <label for="gender">Gender *:
+      <input type="radio" name="gender" value="Female" required id="gender"> Female
+      <input type="radio" name="gender" value="Male" required id="gender"> Male </label> <br><br>
+
+       <label for="age">Age as on*:
+      <input type="number" name="age_years" placeholder="Years" min="0" required id="age"> 
+      <input type="number" name="age_months" placeholder="Months" min="0" max="11" id="age"> 
+      <input type="number" name="age_days" placeholder="Days" min="0" max="31" id="age"> </label> 
+
+      <label for="adhaar">Aadhaar No: 
+      <input type="number" name="aadhaar" title="Enter 12 digit Aadhaar number" id="adhaar" required></label><br><br>
+
+      <label for="whatsapp">WhatsApp No *: </label>
+      <input type="number" name="whatsapp" required placeholder="Enter 10 digit mobile number" id="whatsapp" required>
+
+      <label for="email">E-mail Id *: 
+      <input type="email" name="email" required placeholder="Enter your email" id="email" required ></label><br><br>
+
+      <label for="pic">Photo:</label> 
+      <input type="file" name="photo" id="pic"><br><br>
+    </fieldset>
+
+    <br>
+
+    
+    <fieldset>
+      <legend><strong> Address Details</strong></legend>
+
+      <label for="address">Applicant’s Address *: <br>
+      <textarea name="address" maxlength="20" required id="address"></textarea> </label>
+
+      <label for="d">District *:</label> 
+      <select name="district" required id="d">
+        <option value="">--Select District--</option>
+        <option value="West Godavari">West Godavari</option>
+        <option value="East Godavari">East Godavari</option>
+        <option value="Guntur">Guntur</option>
+        <option value="Kadapa">Kadapa</option>
+        <option value="Srikakulam">Srikakulam</option>
+      </select><br><br>
+
+      <label for="m">Mandal *:
+      <select name="mandal" required id="m">
+        <option value="">--Select Mandal--</option>
+        <option value="Peravali">Pervali</option>
+      </select></label> 
+
+        <label for="v">Village *:
+      <select name="village" required id="v">
+        <option value="">--Select Village--</option>
+        <option value="Kanuru">Kanuru</option>
+      </select></label><br><br>
+
+      <label for="pin">Pincode *: </label>
+      <input type="number" name="pincode"  required title="Enter 6 digit Pincode" id="pin"><br><br>
+    </fieldset>
+
+    <br>
+
+    
+    <fieldset>
+      <legend><strong>Pass Type Details</strong></legend>
+
+      <label for="c">City *: </label>
+      <select name="city" required id="c">
+        <option value="">--Select City--</option>
+        <option value="Hyderabad">Hyderabad</option>
+      </select><br><br>
+
+      <label for="ps">Pass Type *:</label> 
+      <select name="passtype" required id="ps">
+        <option value="">-----Select-----</option>
+      </select><br><br>
+    </fieldset>
+
+    <br>
+
+    <fieldset>
+      <legend><strong>Mode of Payment & Pass Collection</strong></legend>
+
+      <label for="pm">Payment Mode *: 
+      <select name="payment" required id="pm">
+        <option value="">Select Payment Mode</option>
+      </select></label><br><br>
+
+      <label for="pdm">Pass Delivery Mode *:
+      <select name="delivery" required id="pdm">
+        <option value="">Select Pass Delivery Mode</option>
+      </select></label> <br><br>
+
+      <label for="pcc">Pass Collection Center *:
+      <select name="center" required>
+        <option value="">-----Select-----</option>
+      </select></label><br><br>
+    </fieldset>
+
+    <br>
+
+    <p>Enter Captcha *</p>
+    <p><b>hm5WVw</b></p>
+    <input type="text" name="captcha" required><br><br>
+
+    <button style="background: blue; color: white;">Submit</button>
+
+  </form>
+
+</body>
+</html>
