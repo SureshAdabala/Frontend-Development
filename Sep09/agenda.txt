@@ -1,0 +1,18 @@
+Today Agenda:
+
+VERSION CONTROL:
+--> History of code
+--> collaboration
+--> Open Source Projects
+
+
+VERSION CONTROLLING SYSTEM:
+"To Store,track, History Maintaining"
+-- snapShot for changes
+
+GOOGLE DOCS --> text-based (has limitations)
+GIT --> Number of types - text based files, programming, images, videos etc.,
+
+IN REAL TIME EXAMPLES:
+Swiggy - food Orders, Instamart(Firstly Introduce Metropolitan cities)
+
