@@ -16,3 +16,6 @@ GIT --> Number of types - text based files, programming, images, videos etc.,
 IN REAL TIME EXAMPLES:
 Swiggy - food Orders, Instamart(Firstly Introduce Metropolitan cities)
 
+Git- A VCS,storing and tarcking and history maintainenec
+GitHub - 3rd party server and having GUI and A cloud based platfrom
+
