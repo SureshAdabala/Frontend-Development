@@ -1,0 +1,24 @@
+ELEMENTS IN HTML:
+Open Tag with Attribute and Closed tag with some Content.
+Example: <OpenTag attribute = "Value">Content<\CloseTag>
+Types of Elements:
+
+1.Inline Elements:
+It takes only required width and does not create a new line, it does not accept height, width, Margin top, Margin Bottom Etc.,
+Example: Anchor Tag 
+2.Inline-block Elements: 
+It takes only required width and does not create a new line, and it accepts the height, width, Margin Top and Bottom Etc.,
+Example: Multimedia
+3.Block-level Elements: 
+It takes 100% of width and creating a new line.
+Example: headings, Paragraphs, div etc.,
+
+GIT COMMANDS:
+1.git init 
+2.git config --global user.name "username"
+3.git config --global user.email "email"
+4.git status
+5.git remote add origin URL
+6.git add .
+7.git commit -m "message"
+8.git push origin master
