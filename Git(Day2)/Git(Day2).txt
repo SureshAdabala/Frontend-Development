@@ -1,0 +1,6 @@
+Git Commands:
+1.git log -> show all the previous commits.
+2.git log --all -> To show all the commits we have done in Repo.
+3.git checkout commitID -> To movie the previous commit using commitID's.
+4.git clone URL -> To accessing all the data into our local System.
+5.git diff -> To show the what are the changes we have done in the previous commits.
